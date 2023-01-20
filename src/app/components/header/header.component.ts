@@ -19,8 +19,6 @@ export class HeaderComponent {
       .subscribe((value) => (this.showAddTask = value))
   }
 
-  ngOnInit(): void { }
-
   toggleAddTask() {
     this.uiService.toggleAddTask();
   }
